@@ -48,6 +48,6 @@ Dessa forma, a fim de compreender a estrutura de arquivos do FreeRTOS, resolvi c
 
 ![](../img/include_path.png)
 
-- Caso ocorra erros relacionados aos arquivos da pasta "MemMang" durante o Build, basta deletar ou colocar exeção de construção para arquivos "Heap1.c", "Heap2.c", "Heap_3.c" e "Heap_5.c". Fazendo com que seja compilado apenas o arquivo Heap_4.c.
+- Caso ocorra erros relacionados aos arquivos da pasta "MemMang" durante o Build, basta deletar ou colocar exeção de construção para arquivos "Heap1.c", "Heap2.c", "Heap_3.c" e "Heap_5.c", fazendo com que seja compilado apenas o arquivo Heap_4.c.
 
 ![](../img/config_heap.png)
