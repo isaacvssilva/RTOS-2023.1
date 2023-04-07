@@ -27,6 +27,7 @@ Dessa forma, a fim de compreender a estrutura de arquivos do FreeRTOS, resolvi c
   - Na pasta FreeRTOS/ -> copiar a pasta "License" e colocar na pasta subpasta, criada no projeto.
 
     - estrutura:
+    
     ![](../img/estrutura1.png)
 
 - Agora basta remover os arquivos desnessários para a Blue Pill.
@@ -36,7 +37,7 @@ Dessa forma, a fim de compreender a estrutura de arquivos do FreeRTOS, resolvi c
   - Agora é selecionar o processador do Target, no caso seria o Cortex-M3. Então, basta entrar na pasta "GCC" e manter apenas a pasta "ARM_CM3" e apagar as outras.
 
 - Para finalizar a estrutura de arquivos do FreeRTOS, basta adicionar o arquivo "FreeRTOSConfig.h", pois nele contém toda a arquitetura do Kernel RTOS para o Projeto.
- 
+
   - O "FreeRTOSConfig.h", pode variar dependendo do Target alvo. Para achar a da Blue Pill, basta procurar pela sua referência: stm32f103. Até o presente momento, há 4 pastas com essa referência. Para esse caso, foi utilizado a que contém "stm32f103_keil".
 
   - Agora basta entrar na pasta "cortex_stm32f103_keil" e copiar o arquivo "FreeRTOSConfig.h" para a subpasta do projeto criado anteriormente. Dessa forma, foi finalizado a Estrutura e Hierarquia do FreeRTOS. Agora, basta fazer o Build para ver há algum erro.
