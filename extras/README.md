@@ -6,7 +6,7 @@ Modo alternativo de configurar projetos com FreeRTOS, sem a necessidade de usar 
 
 De forma empírica, foi notada que há pequenas mudanças nas nomenclaturas e funções quando é analisado os arquivos fontes do FreeRTOS baixado do site oficial e os arquivos gerados pela interface CMSIS, usando o STM32CubeIDE, mas, ambas funcionam normalmente.
 
-Dessa forma, a fim de compreender a estrutura de arquivos do FreeRTOS, resolvi configurar meu próprio ambiente de desenvolvimento do zero, para a placa STM32F103C8T6 (Blue Pill). Por fim, abaixo estará os passos realizados para a configuração, podendo servir até para outros Targets.
+Dessa forma, a fim de compreender a estrutura de arquivos do FreeRTOS, resolvi configurar meu próprio ambiente de desenvolvimento do zero, para a placa STM32F103C8T6 (Blue Pill). Por fim, abaixo deixarei os passos realizados para a configuração, podendo servir até para outros Targets.
 
 ## Passo a Passo
 
