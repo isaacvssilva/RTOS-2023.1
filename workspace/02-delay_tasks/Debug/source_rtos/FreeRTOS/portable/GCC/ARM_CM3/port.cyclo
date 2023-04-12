@@ -1,0 +1,11 @@
+port.c:173:15:pxPortInitialiseStack	1
+port.c:193:13:prvTaskExitError	2
+port.c:219:6:SVC_Handler	1
+port.c:239:13:prvPortStartFirstTask	1
+port.c:260:12:xPortStartScheduler	1
+port.c:361:6:vPortEndScheduler	1
+port.c:369:6:vPortEnterCritical	1
+port.c:386:6:vPortExitCritical	2
+port.c:398:6:PendSV_Handler	1
+port.c:435:6:SysTick_Handler	2
+port.c:680:32:vPortSetupTimerInterrupt	1
