@@ -1,0 +1,8 @@
+main.c:70:5:main	1
+main.c:127:6:SystemClock_Config	3
+main.c:167:13:MX_GPIO_Init	1
+main.c:199:13:tarefa1	2
+main.c:220:13:tarefa2	2
+main.c:244:13:tarefa3	3
+main.c:276:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:293:6:Error_Handler	1
